@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #000;
+    min-height: 100vh;
+    background: linear-gradient(to top left, #c27a1b, #58ee4a);
+}
+
+.header {
+    text-align: center;
+    padding: 100px 50px 0;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.modal__show-btn {
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    background: linear-gradient(to top left, #58ee4a0e, #58ee4a31);
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.modal__show-btn:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    font-size: 16px;
+    margin: 100px;
+}
+
+.footer strong {
+    font-weight: 700;
+}
